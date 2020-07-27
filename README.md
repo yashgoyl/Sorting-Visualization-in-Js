@@ -25,6 +25,6 @@ Follow below steps to see it working:
 
       Alternatively, you can run the extension from the command line using the [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) tool.
       
-Thank you for viewing my Projects. 
+##### Thank you for viewing my Projects. 
 
      
