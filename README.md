@@ -9,5 +9,5 @@ _Follow below steps to see it working_:
 2. Chrome Extension - 
    * Follow the first 2 steps of the Website View section.
    1. For Google Chrome - 
-     * Open the Google Chrome Browser and 
+      * Open the Google Chrome Browser and 
    2. For Mozilla Firefox -
