@@ -17,6 +17,12 @@ Follow below steps to see it working:
       
       ![Image of Chrome Extension](https://developer.chrome.com/static/images/get_started/load_extension.png)
       
-      Ta-da! The extension has been successfully installed. Because no icons were included in the manifest, a generic toolbar icon will be created for the extension. 
+      Ta-da! The extension has been successfully installed. 
 
    2. **For Mozilla Firefox** -
+      * Open the **about:debugging page**, click **"This Firefox"** (in newer versions of Firefox), click **"Load Temporary Add-on"**, then select **manifest.json** file in your extension's directory.
+      The extension will now be installed, and will stay until you restart Firefox.
+
+      Alternatively, you can run the extension from the command line using the [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) tool.
+
+     
