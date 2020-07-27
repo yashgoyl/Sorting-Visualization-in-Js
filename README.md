@@ -10,5 +10,6 @@ _Follow below steps to see it working_:
    * Follow the first 2 steps of the Website View section.
    1. **For Google Chrome** - 
       * Open the Extension Management page by navigating to **chrome://extensions**.
+      
             * The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**. 
    2. **For Mozilla Firefox** -
