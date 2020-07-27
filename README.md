@@ -24,5 +24,7 @@ Follow below steps to see it working:
       The extension will now be installed, and will stay until you restart Firefox.
 
       Alternatively, you can run the extension from the command line using the [web-ext](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) tool.
+      
+Thank you for viewing my Projects. 
 
      
