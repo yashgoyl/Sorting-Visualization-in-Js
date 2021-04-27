@@ -1,5 +1,5 @@
 
-var speed = 1000;
+var speed = 10000;
 
 inp_aspeed.addEventListener("input", vis_speed);
 

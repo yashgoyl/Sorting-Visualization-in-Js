@@ -19,7 +19,7 @@ function generate_array() {
     cont.innerHTML = "";
 
     for (var i = 0; i < array_size; i++) {
-        div_sizes[i] = Math.floor(Math.random() * 0.5 * (inp_as.max - inp_as.min)) + 10;
+        div_sizes[i] = Math.floor(Math.random() * 0.5 * (inp_as.max - inp_as.min)) + 10;  //height
         divs[i] = document.createElement("div");
         cont.appendChild(divs[i]);
         margin_size = 0.1;

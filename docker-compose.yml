@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: sorting-visualizer-image
+    build: .
+    container_name: sorting-visualizer-container
+    restart: always
+    ports:
+      - "80:80"

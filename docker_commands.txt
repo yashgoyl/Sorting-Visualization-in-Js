@@ -1,0 +1,36 @@
+// To Use Nginx Web server
+
+FROM nginx
+COPY . /usr/share/nginx/html
+
+// Add Docker Compose - This will help you to easily rebuild docker images and re-create containers without stopping and creating them manually..
+
+Create file - nano docker-compose.yml
+
+version: '3'
+services:
+  web:
+    image: img-static-site-example
+    build: .
+    container_name: my-static-site
+    restart: always
+    ports:
+      - "8080:80"
+
+docker-compose build //build your docker image. This will create a docker image with the help of Dockerfile available in current directory.
+docker-compose up -d //run your docker container
+
+//For example, you have make a change your site. Just run these two commands on terminal.
+
+docker-compose build
+docker-compose up -d
+
+
+
+sudo docker container ls -a // To get list of all containers
+sudo docker container stop container-id1 container-id2 // To stop running container
+sudo docker container rm container-id1 container-id2 // To remove stopped containers
+sudo docker container prune //Remove all stopped containers
+
+sudo docker images //list of all images
+sudo docker images rm image_id1 image_id2 //remove image after removing its container
