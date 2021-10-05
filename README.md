@@ -1,2 +1,2 @@
 # Sorting-Visualization-in-Js
-Created a model in javascript which visualizes different Sorting Algorithms and also this model can be used as Chrome Extension.
+##Created a javascript model that visualises several sorting algorithms and can also be used as a Chrome Extension.
